@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: 60
+name: 60
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - 60_left
+  - 60_right

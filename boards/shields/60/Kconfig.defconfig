@@ -1,0 +1,14 @@
+
+if SHIELD_60_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "60"
+
+endif
+
+if SHIELD_60_LEFT || SHIELD_60_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
