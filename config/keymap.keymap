@@ -8,22 +8,17 @@
 
         LeftMouseClick {
             bindings = <&mkp LCLK>;
-            key-positions = <37 38>;
+            key-positions = <51 52>;
         };
 
         RightMouseClick {
             bindings = <&mkp RCLK>;
-            key-positions = <38 39>;
+            key-positions = <52 53>;
         };
 
         MiddleMouseClick {
             bindings = <&mkp MCLK>;
-            key-positions = <23 24>;
-        };
-
-        MoLayer3 {
-            bindings = <&mo 3>;
-            key-positions = <51 52>;
+            key-positions = <37 38>;
         };
     };
 
