@@ -8,17 +8,17 @@
 
         LeftMouseClick {
             bindings = <&mkp LCLK>;
-            key-positions = <51 52>;
+            key-positions = <51 50>;
         };
 
         RightMouseClick {
             bindings = <&mkp RCLK>;
-            key-positions = <52 53>;
+            key-positions = <52 51>;
         };
 
         MiddleMouseClick {
             bindings = <&mkp MCLK>;
-            key-positions = <37 38>;
+            key-positions = <36 37>;
         };
     };
 
@@ -47,11 +47,11 @@
 
         layer_2 {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none           &none           &none            &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none           &none           &none            &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none           &msc SCRL_UP    &kp RG(PERIOD)   &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none                                  &none            &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none             &none             &none            &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none             &none             &none            &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none             &msc MOVE_Y(15)   &kp RG(PERIOD)   &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &msc MOVE_X(-15)  &msc MOVE_Y(-15)  &msc MOVE_X(15)  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none                                                &none  &none  &none
             >;
         };
 
