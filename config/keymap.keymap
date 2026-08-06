@@ -65,6 +65,26 @@
             bindings = <&mkp MCLK>;
             key-positions = <46 45>;
         };
+
+        MouseScrollUPLeft {
+            bindings = <&msc MOVE_Y(15)>;
+            key-positions = <18 17 16>;
+        };
+
+        MouseScrollDownLeft {
+            bindings = <&msc MOVE_Y(-15)>;
+            key-positions = <32 31 30>;
+        };
+
+        MouseScrollLeftLeft {
+            bindings = <&msc SCRL_LEFT>;
+            key-positions = <30 31 29>;
+        };
+
+        MouseScrollRightLeft {
+            bindings = <&msc SCRL_RIGHT>;
+            key-positions = <31 32 33>;
+        };
     };
 
     keymap {
