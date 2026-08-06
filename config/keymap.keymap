@@ -40,6 +40,11 @@
             bindings = <&msc SCRL_RIGHT>;
             key-positions = <38 39 40>;
         };
+
+        MouseMiddleClick {
+            bindings = <&mkp MCLK>;
+            key-positions = <51 52>;
+        };
     };
 
     keymap {
