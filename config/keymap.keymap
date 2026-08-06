@@ -57,11 +57,11 @@
 
         layer_1 {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none                &none  &none  &none
+&kp GRAVE       &none         &none         &none           &none           &none            &none   &none      &none          &none  &kp KP_SLASH  &kp KP_SLASH  &kp STAR  &none
+&kp TAB         &none         &none         &none           &none           &none            &none   &none      &none          &none  &none         &none         &none     &none
+&none           &none         &none         &none           &kp UP_ARROW    &none            &none   &none      &none          &none  &none         &none         &none     &none
+&kp LEFT_SHIFT  &none         &none         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F2  &none      &none          &none  &none         &none         &none     &none
+&kp LCTRL       &kp LEFT_GUI  &kp LEFT_ALT  &kp F5          &none           &none            &none   &kp ENTER  &kp BACKSPACE                       &none         &none     &none
             >;
         };
 
