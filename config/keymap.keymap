@@ -6,19 +6,19 @@
     combos {
         compatible = "zmk,combos";
 
-        LeftMouseClick {
-            bindings = <&mkp LCLK>;
+        LeftMiddleClick {
+            bindings = <&mkp MCLK>;
             key-positions = <37 38>;
         };
 
-        RightMouseClick {
-            bindings = <&mkp RCLK>;
-            key-positions = <38 39>;
+        arrowU {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <39 40>;
         };
 
-        MiddleMouseClick {
-            bindings = <&mkp MCLK>;
-            key-positions = <23 24>;
+        arrowD {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <54 53>;
         };
 
         MouseScrollUP {
@@ -41,29 +41,19 @@
             key-positions = <38 39 40>;
         };
 
-        MouseMiddleClick2 {
-            bindings = <&mkp MCLK>;
-            key-positions = <51 52>;
+        arrowL {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <52 53>;
         };
 
-        MouseLeftClickLeft {
-            bindings = <&mkp LCLK>;
+        arrowR {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <54 55>;
+        };
+
+        MiddleClickLeft {
+            bindings = <&mkp MCLK>;
             key-positions = <32 31>;
-        };
-
-        MouseRightClickLeft {
-            bindings = <&mkp RCLK>;
-            key-positions = <31 30>;
-        };
-
-        MouseMiddleClickLeft {
-            bindings = <&mkp MCLK>;
-            key-positions = <18 17>;
-        };
-
-        MouseMiddleClickLeft2 {
-            bindings = <&mkp MCLK>;
-            key-positions = <46 45>;
         };
 
         MouseScrollUPLeft {
@@ -117,11 +107,11 @@
 
         layer_2 {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none      &none      &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none      &none      &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &mkp LCLK  &mkp RCLK  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &mkp MCLK  &none      &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none                        &none  &none  &none
+&none  &none  &none  &none      &none     &none  &none  &none  &none  &none      &none      &none  &none  &none
+&none  &none  &none  &none      &none     &none  &none  &none  &none  &none      &none      &none  &none  &none
+&none  &none  &none  &mkp RCLK  &mkp MB1  &none  &none  &none  &none  &mkp LCLK  &mkp RCLK  &none  &none  &none
+&none  &none  &none  &none      &none     &none  &none  &none  &none  &none      &none      &none  &none  &none
+&none  &none  &none  &none      &none     &none  &none  &none  &none                        &none  &none  &none
             >;
         };
 
