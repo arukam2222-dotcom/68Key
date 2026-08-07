@@ -46,14 +46,7 @@
             ;
     };
 
-&zip_temp_layer {
-    excluded-positions = <
-        37 // J
-        38 // K
-        51 // M
-            >;
-};
-/ {
+ 
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
@@ -63,7 +56,6 @@
             &zip_temp_layer 2 10000
         >;
     };
-};
 };
 
 &physical_layout0 {
@@ -105,4 +97,13 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 15 GPIO_ACTIVE_LOW>;
     };
+&zip_temp_layer {
+    excluded-positions = <
+        37 // J
+        38 // K
+        51 // M
+            >;
+};
+
+
 };
