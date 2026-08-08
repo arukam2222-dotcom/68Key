@@ -5,3 +5,7 @@
 #include "../../../config/keymap.keymap"
 
 #include <input/processors.dtsi>
+
+&sl {
+    release-after-ms = <180>;
+};
