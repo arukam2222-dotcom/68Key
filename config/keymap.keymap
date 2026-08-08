@@ -68,7 +68,7 @@
                 <&macro_release>,
                 <&mkp LCLK>,
                 <&macro_tap>,
-                <&to 0>;
+                <&tog_off 2 &sl 2>;
 
             label = "MOUSELEFTMACRO";
         };
