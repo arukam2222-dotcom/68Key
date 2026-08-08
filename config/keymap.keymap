@@ -57,6 +57,16 @@
         };
     };
 
+{
+    behaviors {
+        /* ↓↓ これが tog_off の正体（設計図）です ↓↓ */
+        tog_off: toggle_layer_off {
+            compatible = "zmk,behavior-toggle-layer";
+            #binding-cells = <1>;
+            toggle-mode = "off"; /* ここが重要！「オフにする専用」の設定 */
+        };
+    };
+
     macros {
         MouseLeftMacro: MouseLeftMacro {
             compatible = "zmk,behavior-macro";
@@ -73,6 +83,9 @@
             label = "MOUSELEFTMACRO";
         };
     };
+};
+
+
 
     keymap {
         compatible = "zmk,keymap";
