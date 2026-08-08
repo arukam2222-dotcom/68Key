@@ -5,3 +5,10 @@
 #include "../../../config/keymap.keymap"
 
 #include <input/processors.dtsi>
+
+&zip_temp_layer {
+    excluded-positions = <
+        37 // J
+        38 // K
+            >;
+};
