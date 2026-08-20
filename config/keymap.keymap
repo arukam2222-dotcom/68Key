@@ -14,12 +14,12 @@
 
         arrowU {
             bindings = <&kp UP_ARROW>;
-            key-positions = <39 40>;
+            key-positions = <39 38>;
         };
 
         arrowD {
             bindings = <&kp DOWN_ARROW>;
-            key-positions = <54 53>;
+            key-positions = <53 52>;
         };
 
         MouseScrollLeft {
@@ -34,12 +34,12 @@
 
         arrowL {
             bindings = <&kp LEFT_ARROW>;
-            key-positions = <52 53>;
+            key-positions = <52 51>;
         };
 
         arrowR {
             bindings = <&kp RIGHT_ARROW>;
-            key-positions = <54 55>;
+            key-positions = <54 53>;
         };
 
         MouseScrollUPLeft {
