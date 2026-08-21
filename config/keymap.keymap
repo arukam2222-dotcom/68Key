@@ -94,7 +94,7 @@
 &kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp T         &kp F8      &kp RIGHT_BRACKET  &kp Y          &kp U         &kp I         &kp O         &kp P          &kp LEFT_BRACKET
 &kp F6            &kp A         &kp S         &kp D         &kp F         &kp G         &kp F7      &kp NON_US_HASH    &kp H          &kp J         &kp K         &kp L         &kp SEMICOLON  &kp APOSTROPHE
 &kp LEFT_SHIFT    &kp Z         &kp X         &kp C         &kp V         &kp B         &mo 2       &kp B              &kp N          &kp M         &kp COMMA     &kp PERIOD    &kp SLASH      &kp INTERNATIONAL_1
-&kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp INT3      &kp TAB       &kp SPACE     &mo 1       &kp RET            &kp BACKSPACE                              &kp DELETE    &mo 3          &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp INT3      &kp TAB       &kp SPACE     &mo 1       &lt 3 ENTER        &kp BACKSPACE                              &kp DELETE    &mo 3          &kp RIGHT_SHIFT
             >;
         };
 
