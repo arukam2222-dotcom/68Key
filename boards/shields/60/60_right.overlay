@@ -47,7 +47,7 @@
             ;
     };
 
- 
+
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
@@ -137,5 +137,5 @@
         37 // J
         38 // K
     >;
-
+	require-prior-idle-ms = <200>;
 };
