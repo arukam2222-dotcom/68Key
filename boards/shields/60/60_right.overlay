@@ -132,11 +132,11 @@
 
 };
 
+//37、38のキーは例外。キー入力から200msはAMLを発動しない。
 &zip_temp_layer {
     excluded-positions = <
         37 // J
         38 // K
     >;
 	require-prior-idle-ms = <200>;
-￥キー入力から200msはAMLを発動しない。￥
 };
